@@ -6,13 +6,12 @@
 }
 
 
-
 body {
     background-color:bisque;
     font-family: Prata, Open Sans;
     font-size: 20px;
     font-weight: 100;
-    color: dimgrey;
+    color: black;
 }
 
 img{
@@ -22,5 +21,29 @@ img{
     float: left;
 }
 
+/* navigation links*/
 
+#info {
+    font-size: 100%;
+    letter-spacing: normal;
+    line-height: 75px;
+    font-style: italic;
+}
+
+
+
+#info li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#info a {
+    text-decoration: underline;
+    color:black;
+}
+
+#info a:hover {
+    font-size: 120%;
+}
 
