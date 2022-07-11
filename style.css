@@ -56,7 +56,7 @@ a {
     overflow: hidden;
     display: block;
     position:relative;
-    margin: 400px 50px; 
+    margin: 400px 10px; 
     font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ a {
     height: 200px;
     overflow: hidden;
     display: block;
-    margin: 400px 50px;
+    margin: 400px 10px;
     position:relative;
     font-weight: bold;
 }
@@ -161,6 +161,26 @@ div > p {
     float: left;
 }
 
+/* form */
+.form {
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form > h2 {
+    text-decoration: underline;
+    padding: 5px;
+}
+
+input [type=text], select {
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px 5px;
+}
+
 
 /* footer */
 
@@ -191,6 +211,6 @@ footer > #contact {
 
 .socials i {
     font-size: 50px;
-    padding: 1%;
+    padding: 5%;
     color: beige;
 }
