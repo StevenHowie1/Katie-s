@@ -51,12 +51,12 @@ a {
     background-size: cover;
     background-position: center;
     text-align: center;
-    width: 18%;
-    height: 200px;
+    width: 15%;
+    height: 180px;
     overflow: hidden;
     display: block;
-    position:relative;
-    margin: 400px 10px; 
+    position: relative;
+    margin: 200px 0px 0px 150px;
     font-weight: bold;
 }
 
@@ -72,11 +72,11 @@ a {
     background-size: cover;
     background-position: center;
     text-align: center;
-    width: 18%;
-    height: 200px;
+    width: 15%;
+    height: 180px;
     overflow: hidden;
     position: relative;
-    margin: 300px 10px;
+    margin: 200px 0px 0px 150px;
     font-weight: bold;
 }
 
@@ -90,38 +90,18 @@ a {
     background-size: cover;
     background-position: center;
     text-align: center;
-    width: 18%;
-    height: 200px;
+    width: 15%;
+    height: 180px;
     overflow: hidden;
     display: block;
-    margin: 400px 10px;
-    position:relative;
+    margin: 200px 0px 0px 150px;
+    position: relative;
     font-weight: bold;
 }
 
 .gallery:hover {
     font-size: 18px;
 }
-
-.review {
-    background-image: url('./images/review.jpeg');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    width: 18%;
-    height: 200px;
-    overflow: hidden;
-    display: block;
-    position:relative;
-    margin: 300px 10px;
-    font-weight: bold;
-}
-  
-
-.review:hover {
-    font-size: 18px;
-}
-
 
 div {
     float: left;
@@ -164,8 +144,6 @@ div {
     position: absolute;
     margin-right: -50%;
     padding: 20px;
-    
-
 }
 
 ul {
@@ -179,12 +157,31 @@ ul {
     font-style: italic;
     ;
 }
+
+/* gallery */
+
+#images{
+    clear: both;
+    column-count: 2;
+    column-gap: 1px;
+
+}
+
+#images > img {
+    width: 100%;
+    
+}
+
+
+
+
 /* map */
 
 #find-me {
     height: 300%;
     width: 100%;
-    margin-bottom: 190px;
+    margin-bottom: 180px;
+
 }
 
 div > p {
@@ -194,13 +191,13 @@ div > p {
 
 /* form */
 .form {
-    width: 100%;
-    height: 200px;
+    width: 30%;
+    height: 400%;
     background-color: white;
-    margin-bottom: 200px;
-    padding: 20px;
-    border-radius: 5px;
+    margin: 140px 10px 50px 600px;
+    border-radius: 25px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 form > h2 {
@@ -210,8 +207,15 @@ form > h2 {
 
 input [type=text], select {
     width: 100%;
+    text-align: center;
     border: 2px solid black;
-    padding: 5px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form > label {
+    text-align: center;
+    padding: 50px;
 }
 
 
