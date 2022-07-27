@@ -47,17 +47,18 @@ a {
 
 
 .lashes {
-    background-image: url('./images/nails.jpeg');
+    background-image: url('./images/nails\ 3.jpeg');
     background-size: cover;
     background-position: center;
     text-align: center;
     width: 15%;
-    height: 180px;
+    height: 150px;
     overflow: hidden;
     display: block;
     position: relative;
-    margin: 200px 0px 0px 150px;
+    margin: 200px 0px 0px 200px;
     font-weight: bold;
+    border-radius: 25px;
 }
 
 .lashes:hover {
@@ -73,11 +74,13 @@ a {
     background-position: center;
     text-align: center;
     width: 15%;
-    height: 180px;
+    height: 150px;
     overflow: hidden;
+    display: block;
     position: relative;
-    margin: 200px 0px 0px 150px;
+    margin: 200px 0px 10px 200px;
     font-weight: bold;
+    border-radius: 25px;
 }
 
 .about:hover {
@@ -85,18 +88,19 @@ a {
 }
 
 .gallery {
-    background-image: url('./images/gallery.jpeg');
+    background-image: url('./images/lashes\ 2.jpeg');
     text-decoration: underline;
     background-size: cover;
     background-position: center;
     text-align: center;
     width: 15%;
-    height: 180px;
+    height: 150px;
     overflow: hidden;
     display: block;
-    margin: 200px 0px 0px 150px;
+    margin: 200px 0px 0px 200px;
     position: relative;
     font-weight: bold;
+    border-radius: 25px;
 }
 
 .gallery:hover {
@@ -111,32 +115,37 @@ div {
 
 /* services */
 
+div > h2 {
+        padding: 5px;
+}
+
 #lashes {
-   margin-top: 80px;
-   padding: 40px;
+   margin-top: 110px;
+   padding-bottom: 10rem;
+   margin-right: 50px;
    
 }
 
 #nails {
-    margin-top: 80px;
-    padding: 40px;
+    margin-top: 55px;
+    padding: 60px;
 }
 
 #waxing {
-    margin-top: 80px;
-    padding: 40px;
+    margin-top: 50px;
+    padding: 60px
 }
 
 #spa {
-    margin-top: 80px;
-    padding: 40px;
+    margin-top: 50px;
+    padding: 60px;
 }
 
 
 
 /* about-us*/
 
-.about-us > h1 {
+.about-us > h2 {
     text-decoration: underline;
     text-align: center;
     top: 35%;
@@ -151,7 +160,7 @@ ul {
 }
 
 .description > p {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-top: 100px;
     font-style: italic;
@@ -180,7 +189,7 @@ ul {
 #find-me {
     height: 300%;
     width: 100%;
-    margin-bottom: 180px;
+    margin-bottom: 190px;
 
 }
 
@@ -191,32 +200,35 @@ div > p {
 
 /* form */
 .form {
-    width: 30%;
-    height: 400%;
-    background-color: white;
-    margin: 140px 10px 50px 600px;
-    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    margin: 50px 10px 0px 0px;
     text-align: center;
-    padding-bottom: 30px;
+    border-radius: 20px;
+    padding-bottom: 10rem;
+    font-size: 20px;
+    display: inline-block;
 }
 
-form > h2 {
+form > h3 {
     text-decoration: underline;
-    padding: 5px;
+    padding: 40px;
+    padding-top: 10rem;
 }
+
+form > label {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
 
 input [type=text], select {
     width: 100%;
+    padding: 1px;
     text-align: center;
-    border: 2px solid black;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
-.form > label {
-    text-align: center;
-    padding: 50px;
-}
 
 
 /* footer */
@@ -251,4 +263,29 @@ footer > #contact {
     font-size: 50px;
     padding: 5%;
     color: beige;
+}
+
+/* media */
+
+@media screen and (max-width: 980px) {
+    .lashes, .about, .gallery {
+        margin-top: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 150px;
+        width: 150px;
+    }
+
+    #main {
+        margin: auto;
+        width: 53%;
+    }
+
+    .form {
+        width: 15%;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        display: inline-block;
+    }
 }
