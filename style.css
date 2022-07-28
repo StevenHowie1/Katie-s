@@ -59,6 +59,7 @@ a {
     margin: 200px 0px 0px 200px;
     font-weight: bold;
     border-radius: 25px;
+    float: left;
 }
 
 .lashes:hover {
@@ -81,6 +82,7 @@ a {
     margin: 200px 0px 10px 200px;
     font-weight: bold;
     border-radius: 25px;
+    float: left;
 }
 
 .about:hover {
@@ -101,6 +103,7 @@ a {
     position: relative;
     font-weight: bold;
     border-radius: 25px;
+    float: left;
 }
 
 .gallery:hover {
@@ -108,9 +111,8 @@ a {
 }
 
 div {
-    float: left;
+    /* float: left; */
     padding: 0.2%;
-    margin-bottom: 100px;
 }
 
 /* services */
@@ -189,8 +191,6 @@ ul {
 #find-me {
     height: 300%;
     width: 100%;
-    margin-bottom: 190px;
-
 }
 
 div > p {
@@ -200,57 +200,62 @@ div > p {
 
 /* form */
 .form {
-    width: 100%;
+    width: 40%;
     height: 100%;
-    margin: 50px 10px 0px 0px;
-    text-align: center;
+    margin: 50px 10px 0px 20px;
     border-radius: 20px;
     padding-bottom: 10rem;
     font-size: 20px;
-    display: inline-block;
+    display: block;
 }
 
 form > h3 {
     text-decoration: underline;
     padding: 40px;
     padding-top: 10rem;
+    margin-top: 200px;
 }
 
 form > label {
     width: 100%;
     padding: 5px;
-    text-align: center;
+    float: left;
+}
+
+form > input {
+    float: left;
+    margin-bottom: 10px;
 }
 
 
-input [type=text], select {
+input[type=text], input[type=phone], select {
     width: 100%;
     padding: 1px;
-    text-align: center;
+    float: left;
 }
 
-
+input[type=submit] {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 
 /* footer */
 
 footer {
     background-color: lightgrey ;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0%;
-    height: 25%;
+    height: auto;
 }
 
 footer > #contact {
-   margin: 10% 1% 5%;
+   /* margin: 10% 1% 5%; */
     font-size: 10px;
     text-align: left;
     float: left;
 }
 
-.address {
-    margin: 5% 0 1%;
-}
 .socials {
     text-align: center;
 }
@@ -282,10 +287,8 @@ footer > #contact {
     }
 
     .form {
-        width: 15%;
-        margin-left: 10px;
-        margin-right: 10px;
-        position: relative;
-        display: inline-block;
+        width: 30%;
+        margin: 0;
+        display: block;
     }
 }
