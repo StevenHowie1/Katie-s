@@ -119,28 +119,7 @@ div {
 
 div > h2 {
         padding: 5px;
-}
-
-#lashes {
-   margin-top: 110px;
-   padding-bottom: 10rem;
-   margin-right: 50px;
-   
-}
-
-#nails {
-    margin-top: 55px;
-    padding: 60px;
-}
-
-#waxing {
-    margin-top: 50px;
-    padding: 60px
-}
-
-#spa {
-    margin-top: 50px;
-    padding: 60px;
+    
 }
 
 
@@ -150,23 +129,22 @@ div > h2 {
 .about-us > h2 {
     text-decoration: underline;
     text-align: center;
-    top: 35%;
-    left: 45%;
-    position: absolute;
-    margin-right: -50%;
-    padding: 20px;
+    padding-top: 5rem;
 }
 
 ul {
     list-style-type: none;
 }
 
-.description > p {
+.description{
     font-size: 20px;
     text-align: center;
-    margin-top: 100px;
     font-style: italic;
-    ;
+    padding-bottom: 10rem;
+}
+
+footer {
+    bottom: 0;
 }
 
 /* gallery */
@@ -182,9 +160,6 @@ ul {
     width: 100%;
     
 }
-
-
-
 
 /* map */
 
@@ -213,7 +188,7 @@ form > h3 {
     text-decoration: underline;
     padding: 40px;
     padding-top: 10rem;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 form > label {
@@ -243,14 +218,12 @@ input[type=submit] {
 
 footer {
     background-color: lightgrey ;
-    /* position: fixed; */
     width: 100%;
     bottom: 0%;
     height: auto;
 }
 
 footer > #contact {
-   /* margin: 10% 1% 5%; */
     font-size: 10px;
     text-align: left;
     float: left;
@@ -291,4 +264,9 @@ footer > #contact {
         margin: 0;
         display: block;
     }
+
+    .form > h3 {
+        margin-top: 200px;
+    }
+
 }
