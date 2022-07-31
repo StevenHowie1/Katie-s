@@ -129,7 +129,9 @@ div > h2 {
 .about-us > h2 {
     text-decoration: underline;
     text-align: center;
-    padding-top: 5rem;
+    position: relative;
+    padding-bottom: 10rem;
+    
 }
 
 ul {
