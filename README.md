@@ -99,7 +99,7 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 This site was deployed to GitHub pages.
 
-Live link - 
+Live link - https://stevenhowie1.github.io/Katie-s/index.html
 
 ------
 
