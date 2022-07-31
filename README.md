@@ -22,6 +22,7 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 - Services 
 
+![Services](images/Screenshot%202022-07-31%20at%2010.53.03.png)
 
 - On this page is where you'll find information about the services provided by Katie. You can see the prices and how long each treatment takes. 
 - This page will be updated if any changes are needed to keep the user up to date.
@@ -97,6 +98,22 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 This site was deployed to GitHub pages.
 
 Live link - 
+
+------
+
+## Credits
+
+- The code for the social media links was taken from Love Running Project.
+- Idea for map was from Coders Coffeehouse
+- Social Media icons from Font Awesome.
+- Font used from Google Fonts.
+
+## Media
+
+- The logo is from Katie's Facebook page.
+- Images for pages are from google.
+- Gallery is from Katie's Facebook page.
+
 
 
 
