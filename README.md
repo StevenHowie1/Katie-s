@@ -113,7 +113,7 @@ Live link - https://stevenhowie1.github.io/Katie-s/index.html
 ## Media
 
 - The logo is from Katie's Facebook page.
-- Images for pages are from google.
+- Images for pages are from Google.
 - Gallery is from Katie's Facebook page.
 
 
