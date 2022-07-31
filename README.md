@@ -51,7 +51,7 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 ![Map](images/Screenshot%202022-07-31%20at%2010.10.11.png)
 
-- The user can see the location on a map. The user can use this if lost, or can type in the address to find the location of Katies.
+- The user can see the location on a map. The user can type in the address to find the location of Katies.
 
 - The Footer
 
