@@ -20,32 +20,89 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 - You can access the three pages by clicking on their box. 
 
--
+- Services 
 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- On this page is where you'll find information about the services provided by Katie. You can see the prices and how long each treatment takes. 
+- This page will be updated if any changes are needed to keep the user up to date.
+
+
+- About us
+
+![About](images/Screenshot%202022-07-31%20at%2010.02.40.png)
+
+- This page describes a little bit about Katie's.
+
+- Gallery
+
+
+- The Gallery page shows treatments that have been provided by Katie. The user can see the quality of treatments provided and can choose which one they would prefer.
+
+- Treatment Form
+
+![Form](images/Screenshot%202022-07-31%20at%2010.06.42.png)
+
+- The user can use this form to sign up for a treatment. The user can choose which treatment they want and Katie will be alerted. The form doesn't send any information, but my future plans are to fix this.
+
+- Location
+
+![Map](images/Screenshot%202022-07-31%20at%2010.10.11.png)
+
+- The user can see the location on a map. The user can use this if lost, or can type in the address to find the location of Katies.
+
+- The Footer
+
+![Footer](images/Screenshot%202022-07-31%20at%2010.12.21.png)
+
+- This section includes contact details and social media links. When you click on the social media links this will take you to Katie's social media sites.
+
+## Featues Left to Implement
+
+- Make the website more centre.
+- Fix the treatment form
+
 
 ------
 
-## Release History
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Validator Testing
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-  HTML
+ - When passing through W3C Validator, I had 4 errors.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ ![HTML](images/Screenshot%202022-07-31%20at%2010.21.34.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ All errors are on the iframe element. I fixed these errors by following the advice provided on W3C Validator.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- CSS
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- No errors were found.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Lighthouse
+  ![Lighthouse](images/Screenshot%202022-07-29%20at%2013.37.29.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Bugs
+
+1. I had to edit margins for smaller screens. 
+2. When I deployed my site on GitHub the logo and map wasn't responsive. I had to change the file paths by removing ./ from the start. 
+3. My form wouldn't stay to the left so I had to fix my margins.
+4. The footer wouldn't stay at the bottom of my screen. I fixed this by adding bottom:0. 
+
+------
+
+## Deployment
+
+This site was deployed to GitHub pages.
+
+Live link - 
+
+
+
+ 
+
+
 
 **October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
