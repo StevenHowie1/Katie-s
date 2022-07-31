@@ -36,6 +36,8 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 - Gallery
 
+![Gallery](images/Screenshot%202022-07-31%20at%2011.01.30.png)
+
 
 - The Gallery page shows treatments that have been provided by Katie. The user can see the quality of treatments provided and can choose which one they would prefer.
 
