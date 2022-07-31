@@ -1,36 +1,27 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Website Front Cover](images/Screenshot%202022-07-29%20at%2015.12.57.png)
 
-Welcome StevenHowie1,
+## Katie's
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is for a self employed beauty therapist who offers luxury & spa treatments. Katie's is based in Carnoustie, Scotland. On this site you can see the services that Katie provides, and you can book an appointment using the form on the front page. If you need to find contact Katie you'll see her details at the bottom of the page, or you can use her social media links.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+------
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Navigation Logo
 
-`python3 -m http.server`
+  ![Navigation](images/Screenshot%202022-07-31%20at%2009.48.24.png)
 
-A blue button should appear to click: _Make Public_,
+  - This logo is on all pages. This logo will allow the user to navigate back to the home page instead of having to go back.
 
-Another blue button should appear to click: _Open Browser_.
+- Pages 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![[Pages](images/Screenshot%202022-07-31%20at%2009.45.10.png)
 
-A blue button should appear to click: _Make Public_,
+- You can access the three pages by clicking on their box. 
 
-Another blue button should appear to click: _Open Browser_.
+-
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
