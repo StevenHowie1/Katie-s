@@ -205,7 +205,7 @@ form > input {
 }
 
 
-input[type=text], input[type=phone], select {
+input[type=text], input[type=tel], select {
     width: 100%;
     padding: 1px;
     float: left;
