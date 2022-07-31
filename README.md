@@ -16,7 +16,7 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 - Pages 
 
-![[Pages](images/Screenshot%202022-07-31%20at%2009.45.10.png)
+![Pages](images/Screenshot%202022-07-31%20at%2009.45.10.png)
 
 - You can access the three pages by clicking on their box. 
 
