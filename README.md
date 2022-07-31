@@ -43,7 +43,7 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 - Treatment Form
 
-![Form](images/Screenshot%202022-07-31%20at%2010.06.42.png)
+![Form](images/Screenshot%202022-07-31%20at%2011.22.30.png)
 
 - The user can use this form to sign up for a treatment. The user can choose which treatment they want and Katie will be alerted. The form doesn't send any information, but my future plans are to fix this.
 
