@@ -88,9 +88,9 @@ This website is for a self employed beauty therapist who offers luxury & spa tre
 
 ## Bugs
 
-1. I had to edit margins for smaller screens. 
+1. I had to change the margins for smaller screens. 
 2. When I deployed my site on GitHub the logo and map wasn't responsive. I had to change the file paths by removing ./ from the start. 
-3. My form wouldn't stay to the left so I had to fix my margins.
+3. My form wouldn't stay to the left so I had to fix my margins and add float: left.
 4. The footer wouldn't stay at the bottom of my screen. I fixed this by adding bottom:0. 
 
 ------
